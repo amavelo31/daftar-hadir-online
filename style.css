@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+}
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+}
+input, textarea, button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+textarea {
+    resize: none;
+}
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#papanPesan {
+    margin-top: 15px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+.kartu-pesan {
+    background: #f8f9fa;
+    border-left: 4px solid #007bff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.kartu-pesan strong {
+    color: #333;
+    display: block;
+    font-size: 14px;
+}
+.kartu-pesan p {
+    margin: 5px 0 0 0;
+    color: #555;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+.kartu-pesan span {
+    font-size: 10px;
+    color: #999;
+    display: block;
+    text-align: right;
+    margin-top: 5px;
+}
